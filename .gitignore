@@ -1,7 +1,6 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # config credentials
-/server/config/logins.js
 
 # dependencies
 /node_modules
