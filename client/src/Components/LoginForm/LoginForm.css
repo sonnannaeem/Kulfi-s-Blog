@@ -1,0 +1,71 @@
+.jumbotron {
+  width: 25vw;
+  padding: 10px;
+  margin: auto;
+
+  margin-top: 25vh;
+
+  background-color: white !important;
+}
+
+.navbar-default {
+  background-color: #FCB2AF;
+  background-image: none;
+  background-repeat: no-repeat;
+
+  height: 10vh;
+  min-height: 10vh;
+  color: white !important;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300 !important;
+  letter-spacing: 2px;
+ }
+
+ .navbar-header, .navbar-brand{
+   margin-top: 1.3vh;
+   font-size: 20px; 
+   color: white !important;
+ }
+
+ .navbar-nav{
+   margin-top: 2.6vh;
+   font-size: 20px;
+ }
+
+ .navbar-default .navbar-nav>li>a {
+   color: white !important;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300 !important;
+   letter-spacing: 2px;
+ }
+
+ .btn-primary {
+   width: 100%;
+   background-color: #FCB2AF;
+   background-image: none;
+   background-repeat: no-repeat;
+   border-color: #FCB2AF;
+ }
+
+ .btn-primary:hover {
+  width: 100%;
+  background-color: #fa837e;
+  background-image: none;
+  background-repeat: no-repeat;
+  border-color: #FCB2AF;
+ }
+
+ .form-control {
+   border-color: #2b2a2a !important;
+ }
+
+ .control-label {
+   color: #2b2a2a !important;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400 !important;
+   font-size: 16px !important;
+ }
+
+ .help-block {
+   color: #2b2a2a !important;
+ }

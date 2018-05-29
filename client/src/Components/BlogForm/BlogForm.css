@@ -1,0 +1,82 @@
+.blogForm > button {
+  margin: 10px;
+
+  width: 50%;
+}
+
+.blogForm {
+  width: 60%;
+  margin: auto;
+  padding-top: 10vh;
+}
+
+.blogForm > .btn-primary {
+  width: 10%;
+}
+
+#blogTitle {
+  border: none;
+
+  box-shadow: none;
+
+  height: 10vh;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 60px;
+
+  padding-bottom: 0px;
+}
+
+.blogTitleClass::placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 60px;
+}
+
+.blogDescClass::placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+#blogDesc {
+  border: none;
+
+  box-shadow: none;
+
+  height: 5vh;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+
+  padding-top: 0px;
+  padding-left: 15px;
+}
+
+#blodBody {
+  border: none;
+
+  box-shadow: none;
+
+  height: 20vh;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+
+  margin-top: 5vh;
+
+  padding-left: 19px;
+}
+
+.blogBodyClass::placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.blogForm > .form-group {
+  margin-bottom: 0;
+}

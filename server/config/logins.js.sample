@@ -1,0 +1,8 @@
+// Example of config credentails
+
+module.exports = {
+  db: {
+    username: "", // mongo db username
+    password: "", // mongo db password
+  }
+}

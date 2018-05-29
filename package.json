@@ -1,0 +1,18 @@
+{
+  "name": "violet",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "cd server && yarn start",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "install-client": "cd client && yarn",
+    "install-server": "cd server && yarn",
+    "up": "yarn && yarn install-server && yarn install-client"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  },
+  "dependencies": {
+    "react-router-dom": "^4.2.2"
+  }
+}
